@@ -1,0 +1,10 @@
+from task_guest import Guest
+
+Guest1 = Guest("Вася Пупкин","Москва","Наставник")
+Guest2 = Guest("Иван Иванов","СПБ","Менеджер")
+Guest3 = Guest("Петр Сидоров","НУР","Стажер")
+
+guest_list = [Guest1, Guest2, Guest3]
+
+for guest in guest_list:
+    print(guest.guest_info())
